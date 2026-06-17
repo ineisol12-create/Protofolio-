@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scrapbook Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="scrapbook-canvas">
+        
+        <section class="scrapbook-item polaroid draggable" id="profile-pic">
+            <div class="pin">📌</div>
+            <div class="photo-frame">
+                <img src="assets/profile.jpg" alt="My Profile Photo" onerror="this.src='https://via.placeholder.com/250x280?text=Your+Photo+Here'">
+            </div>
+            <p class="caption">Hey, it's me! ✨</p>
+        </section>
+
+        <section class="scrapbook-item intro-text">
+            <h1 class="handwritten">Hi, I'm <span class="highlight">Imtiyachet</span></h1>
+            <p class="sub-handwritten">You can call me <strong>yachet</strong></p>
+            <p class="bio">I'm a Graphic Design noob based in mokokchung, focusing on improving my skills  and social media. Click and drag items around to clean up my desk!</p>
+        </section>
+
+        <section class="scrapbook-item sticky-note yellow draggable" id="experience">
+            <div class="tape"></div>
+            <span class="badge">EXPERIENCE</span>
+            <h3>Freelance Digital Artist</h3>
+            <p class="date">(2026 - Now)</p>
+            <hr>
+            <h3>School Projects</h3>
+            <ul>
+                <li>Typography</li>
+                <li>Social Media, webstarrr_0</li>
+                <li>websatarr_0</li>
+            </ul>
+        </section>
+
+        <section class="scrapbook-item sticky-note blue draggable" id="education">
+            <span class="badge orange-badge">EDUCATION</span>
+            <h3>Jubilee memorial school</h3>
+            <p><strong>freelance web desining</strong></p>
+            <p class="date">2026 - On going</p>
+            <div class="skills-tags">
+                <span class="tag">Illustration</span>
+                <span class="tag">Branding</span>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
